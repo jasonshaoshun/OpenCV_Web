@@ -14,8 +14,8 @@ class VideoCamera(object):
         width = int(self.video.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
         height = int(self.video.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
 
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/team/flask_web/flask_sapient/static/video/true.mp4', fourcc, 20.0, (width, height))
+        fourcc = cv2.VideoWriter_fourcc(*'H264')
+        self.out = cv2.VideoWriter('true.mp4', fourcc, 20.0, (width, height))
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
         # self.video = cv2.VideoCapture('video.mp4')
@@ -69,3 +69,4 @@ class VideoCamera(object):
         # video stream.
         ret, jpeg = cv2.imencode('.jpg', frame)
         return jpeg.tobytes()
+
