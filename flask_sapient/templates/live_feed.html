@@ -1,0 +1,31 @@
+{% extends "homepage/template.html" %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/live_feed.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block body %}
+  <img src="{{ url_for('static', filename='img/image_upload/image_upload_background.jpeg') }}" class="background_image">
+
+  <a href="{{ url_for('main.index') }}"><img src="{{ url_for('static', filename='img/image_upload/home.png') }}" class="home_btn"></a>
+
+  <img src="{{ url_for('static', filename='img/image_upload/help_btn.png') }}" class="help_btn" data-toggle="popover" data-content="1. Click choose file to select the file to be uploaded. <br/> 2.Click upload.<br/> 3.Click analyse." data-placement="left" data-trigger="hover" data-html="true">
+
+  <form method="post" enctype="multipart/form-data">
+    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_choosefile.png') }}" class="choosefile_btn"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn2"></label>
+  </form>
+
+  <!-- USE THIS NAME TO TRIGGER LIVE PYTHON FILE-->
+  <form method="post">
+    <label class="button_default"><img id="bg" src="{{ url_for('main.videoupload') }}"> class="analyse_btn"></label>
+  </form>
+
+    <!-- SHOWS THE STUFF FROM PYTHON FILE SRC LEFT EMPTY-->
+    <img id="bg" src="{{ url_for('main.live_cam') }}" class="canvas_area">
+
+{% endblock %}
+
