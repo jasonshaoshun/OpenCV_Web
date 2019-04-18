@@ -1,20 +1,22 @@
-{% with messages = get_flashed_messages() %}
-        {% if messages %}
-        <ul>
-            {% for message in messages %}
-            <li>{{ message }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-{% endwith %}
+{% extends "homepage/template.html" %}
+
+{% block head %}
+    <link rel="stylesheet" media="screen"  href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock %}
+
+{% block body %}
+
+    <img src="{{ url_for('static', filename='img/menu_backgroundlight.gif')}}" class="menu_background">
+
+    <img src="{{ url_for('static', filename='img/button_layout_big.png')}}" class="main_window">
 
 
-<h1>Sign In</h1>
+    <h1 class="title_text">Sign In</h1>
 
-<form action="" method="post" novalidate>
+<form class="login_area" action="" method="post" novalidate>
     {{ form.hidden_tag() }}
     <p>
-        {{ form.username.label }}<br>
+    <div class="username">{{ form.username.label }}<br></div>
         {{ form.username(size=32) }}<br>
 
         {% for error in form.username.errors %}
@@ -22,13 +24,26 @@
         {% endfor %}
     </p>
     <p>
-        {{ form.password.label }}<br>
+    <div class="password">{{ form.password.label }}<br></div>
         {{ form.password(size=32) }}<br>
 
         {% for error in form.password.errors %}
             <span style="color: red;">[{{ error }}]</span>
         {% endfor %}
     </p>
-    <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
-    <p>{{ form.submit() }}</p>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul class="error_message">
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+
+    <p class="remember_me">{{ form.remember_me() }} {{ form.remember_me.label }}</p>
+    <p class="submit_btn">{{ form.submit() }}</p>
 </form>
+
+{% endblock %}
