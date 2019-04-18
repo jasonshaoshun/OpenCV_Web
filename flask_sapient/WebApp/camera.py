@@ -15,7 +15,9 @@ class VideoCamera(object):
         height = int(self.video.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
 
         fourcc = cv2.VideoWriter_fourcc(*'H264')
-        self.out = cv2.VideoWriter('true.mp4', fourcc, 20.0, (width, height))
+        # fourcc = cv2.VideoWriter_fourcc(*'avc1')
+        # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.out = cv2.VideoWriter('static/video/true.mp4', fourcc, 20.0, (width, height))
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
         # self.video = cv2.VideoCapture('video.mp4')
@@ -29,15 +31,15 @@ class VideoCamera(object):
 
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-        face_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/team/flask_web/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_alt2.xml')
-        eye_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/team/flask_web/flask_sapient/WebApp/cascades/data/haarcascade_eye.xml')
-        smile_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/team/flask_web/flask_sapient/WebApp/cascades/data/haarcascade_smile.xml')
+        face_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_alt2.xml')
+        eye_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/cascades/data/haarcascade_eye.xml')
+        smile_cascade = cv2.CascadeClassifier('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/cascades/data/haarcascade_smile.xml')
 
         recognizer = cv2.face.LBPHFaceRecognizer_create()
-        recognizer.read('/Users/shunshao/Desktop/team/flask_web/flask_sapient/WebApp/recognizers/face-trainner.yml')
+        recognizer.read('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/recognizers/face-trainner.yml')
 
         labels = {"person_name": 1}
-        with open("/Users/shunshao/Desktop/team/flask_web/flask_sapient/WebApp/pickles/face-labels.pickle", 'rb') as f:
+        with open("/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/pickles/face-labels.pickle", 'rb') as f:
             og_labels = pickle.load(f)
             labels = {v: k for k, v in og_labels.items()}
 
