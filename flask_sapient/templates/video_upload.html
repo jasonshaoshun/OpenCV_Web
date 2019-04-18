@@ -23,6 +23,7 @@
 
   <img src="{{ url_for('static', filename='img/image_upload/help_btn.png') }}" class="help_btn" data-toggle="popover" data-content="1. Click choose file to select the file to be uploaded. <br/> 2.Click upload.<br/> 3.Click analyse." data-placement="left" data-trigger="hover" data-html="true">
 
+  <!-- BUTTONS FOR CHOOSE FILE UPLOAD FACE,POSTURE-->
   <form method="post" enctype="multipart/form-data">
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_choosefile.png') }}" class="choosefile_btn"> <input type="file" style="display: none;" name="file" id="file"></label>
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn"><input type="submit" id="button" name="button" style="display: none;"></label>
@@ -30,18 +31,7 @@
       <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="posture_btn"></label>
   </form>
 
-{#  <?php#}
-{##}
-{#  include 'php/image_upload_functions.php';#}
-{##}
-{#  if(array_key_exists('button',$_POST)){#}
-{#  uploadphoto();#}
-{#  unset($_POST[0]);#}
-{#  }#}
-{##}
-{#  ?>#}
-
-  <!-- USE THIS NAME TO TRIGGER PHP analysebutton-->
+  <!-- USE THIS NAME TO TRIGGER ANALYSE BTN-->
   <form method="post">
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="analysebutton" style="display: none;"></label>
   </form>
