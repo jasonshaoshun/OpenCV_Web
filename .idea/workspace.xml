@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="" />
+    <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +14,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_sapient/templates/video_upload.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -32,6 +76,8 @@
     <findStrings>
       <find>face</find>
       <find>main</find>
+      <find>main.i</find>
+      <find>main.im</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -43,10 +89,12 @@
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/camera.py" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/login.html" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/login.css" />
-        <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" />
         <option value="$PROJECT_DIR$/flask_sapient/views.py" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/video_upload.css" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/video_upload.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/static/css/style.css" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" />
       </list>
     </option>
   </component>
@@ -60,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1106" />
@@ -71,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,21 +149,6 @@
               <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
               <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="image_upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -133,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +191,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="OpenCV_Web" type="Python.FlaskServer" factoryName="Flask server">
+    <configuration name="OpenCV_Web" type="Python.FlaskServer">
       <module name="OpenCV_Web" />
       <option name="target" value="$PROJECT_DIR$/flask_sapient/__init__.py" />
       <option name="targetType" value="PATH" />
@@ -188,17 +221,19 @@
       <workItem from="1555495943312" duration="7957000" />
       <workItem from="1555597099262" duration="3611000" />
       <workItem from="1555602048210" duration="898000" />
+      <workItem from="1555603070624" duration="579000" />
+      <workItem from="1555678097620" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15364000" />
+    <option name="totallyTimeSpent" value="16292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1106" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +247,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32938856" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32920793" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,24 +276,10 @@
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/img/menu_backgroundlight.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -280,13 +301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/login.css" />
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -295,13 +310,6 @@
             <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#1;n#form#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -321,18 +329,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="64" selection-start-line="64" selection-end-line="65" />
+        <state relative-caret-position="1875">
+          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/video_upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,6 @@
 
 {% block body %}
   <img src="{{ url_for('static', filename='img/image_upload/image_upload_background.jpeg') }}" class="background_image">
-
   <a href="{{ url_for('main.index') }}"><img src="{{ url_for('static', filename='img/image_upload/home.png') }}" class="home_btn"></a>
 
   <img src="{{ url_for('static', filename='img/image_upload/help_btn.png') }}" class="help_btn" data-toggle="popover" data-content="1. Click choose file to select the file to be uploaded. <br/> 2.Click upload.<br/> 3.Click analyse." data-placement="left" data-trigger="hover" data-html="true">
@@ -22,11 +21,11 @@
 
 
     <!-- SHOWS THE STUFF FROM PYTHON FILE SRC LEFT EMPTY-->
-{#    <img id="bg" src="{{ url_for('main.live_cam') }}" class="canvas_area">#}
+    <img id="bg" src="{{ url_for('main.live_cam') }}" class="canvas_area">
 
-    <video width="620" height="360" controls class="canvas_area">
-        <source src="{{ url_for('static', filename='video/true.mp4')}}" type="video/mp4">
-    </video>
+{#    <video width="620" height="360" controls class="canvas_area">#}
+{#        <source src="{{ url_for('static', filename='video/true.mp4')}}" type="video/mp4">#}
+{#    </video>#}
 
 {% endblock %}
 

@@ -61,8 +61,8 @@
         <div>
           <img id="imagebtn_details" src="{{ url_for('static', filename='img/button_layout_big.png')}}" class="imagebtn_details" >
           <img id="image_title" src="{{ url_for('static', filename='img/image_title.png')}}" class="image_title">
-          <a href="{{ url_for('main.imageupload')}}"><img id="upload_icon" src="{{ url_for('static', filename='img/upload_icon.png')}}" class="upload_icon"></a>
-          <a href="{{ url_for('main.imagewebcam')}}"><img id="webcam_icon" src="{{ url_for('static', filename='img/webcam_icon.png')}}" class="webcam_icon"></a>
+          <a ><img id="upload_icon" src="{{ url_for('static', filename='img/upload_icon.png')}}" class="upload_icon"></a>
+          <a ><img id="webcam_icon" src="{{ url_for('static', filename='img/webcam_icon.png')}}" class="webcam_icon"></a>
         </div>
         <!-- Video Button -->
         <div onmouseover="growbutton('videobtn','videotext');" onmouseout="shrinkbutton('videobtn','videotext');" onclick="grow_video_frame('videobtn_details','videotext','videobtn');">
