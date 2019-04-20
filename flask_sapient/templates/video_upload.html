@@ -26,15 +26,19 @@
   <!-- BUTTONS FOR CHOOSE FILE UPLOAD FACE,POSTURE-->
   <form method="post" enctype="multipart/form-data">
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_choosefile.png') }}" class="choosefile_btn"> <input type="file" style="display: none;" name="file" id="file"></label>
-    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn"><input type="submit" id="button" name="button" style="display: none;"></label>
-      <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/face_btn.png') }}" class="face_btn"></label>
-      <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="posture_btn"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn"><input type="submit" id="button" name="button" value="upload" style="display: none;"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/face_btn.png') }}" class="face_btn"><input type="submit" id="button" name="button" value="face" style="display: none;"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="posture_btn"></label>
   </form>
 
   <!-- USE THIS NAME TO TRIGGER ANALYSE BTN-->
-  <form method="post">
+{#  <form method="post" >#}
+{#    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="analysebutton" style="display: none;"></label>#}
+{#  </form>#}
+  <form method="post" >
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="analysebutton" style="display: none;"></label>
   </form>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>

@@ -3,7 +3,275 @@
   <component name="ChangeListManager">
     <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/classification/3d_data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/classification/3d_data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/classification/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/classification/data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/3d_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/3d_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/c720v3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/c720v3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/combined.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/combined.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/combined.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/combined.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/combined_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/combined_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/combined_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/combined_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/dance.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/dance.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/experiments.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/experiments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/feature.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/feature.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/imgcat0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/imgcat0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/inference_result2.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/inference_result2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/loss_ll_heat.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/loss_ll_heat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/loss_ll_paf.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/loss_ll_paf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_macbook13_mobilenet2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_macbook13_mobilenet2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_macbook_cmu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_macbook_cmu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_macbook_mobilenet3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_macbook_mobilenet3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_p40_cmu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_p40_cmu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_p40_mobilenet.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_p40_mobilenet.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/openpose_tx2_mobilenet3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/openpose_tx2_mobilenet3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/ros.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/ros.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/etcs/training.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/etcs/training.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final15.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final15.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final15.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final15_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final15_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final15_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final15_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final1_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final1_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final1_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final1_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final2_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final2_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/final2_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/final2_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/launch/demo_video.launch" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/launch/demo_video.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/models/prob_model_params.mat" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/models/prob_model_params.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/prob_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/prob_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/lifting/upright_fast.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/lifting/upright_fast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/cmu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/cmu/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/cmu/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/cmu/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/mobilenet_thin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/mobilenet_thin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/mobilenet_thin/graph.pb" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/mobilenet_thin/graph.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/mobilenet_thin/graph_freeze.pb" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/mobilenet_thin/graph_freeze.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/graph/mobilenet_thin/graph_opt.pb" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/graph/mobilenet_thin/graph_opt.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/numpy/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/numpy/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/pretrained/mobilenet_v1_0.50_224_2017_06_14/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/pretrained/mobilenet_v1_0.50_224_2017_06_14/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/pretrained/mobilenet_v1_0.75_224_2017_06_14/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/pretrained/mobilenet_v1_0.75_224_2017_06_14/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/pretrained/mobilenet_v1_1.0_224_2017_06_14/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/pretrained/mobilenet_v1_1.0_224_2017_06_14/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/models/pretrained/resnet_v2_101/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/models/pretrained/resnet_v2_101/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/msg/BodyPartElm.msg" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/msg/BodyPartElm.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/msg/Person.msg" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/msg/Person.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/msg/Persons.msg" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/msg/Persons.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/output.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/output.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/run_checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/run_checkpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/run_directory.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/run_directory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/run_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/run_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/run_webcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/run_webcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/scripts/broadcaster_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/scripts/broadcaster_ros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/scripts/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/scripts/visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/single_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/single_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/datum_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/datum_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/estimator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_cmu.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_cmu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_dsconv.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_dsconv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_mobilenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_mobilenet_thin.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet_thin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/network_personlab.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_personlab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/backup/pafprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/backup/pafprocess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/numpy.i" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/numpy.i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess.h" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess.i" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess.i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess_wrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess_wrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/pafprocess_wrap.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/pafprocess_wrap.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pafprocess/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pafprocess/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pose_augment.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_augment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pose_datamaster.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_datamaster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pose_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pose_dataworker.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataworker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pycocotools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pycocotools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pycocotools/_mask.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pycocotools/_mask.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pycocotools/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pycocotools/coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pycocotools/cocoeval.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pycocotools/cocoeval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pycocotools/mask.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pycocotools/mask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/pystopwatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pystopwatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/ArrayUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/ArrayUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/Batching.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/Batching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/Merging.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/Merging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/RectangleUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/RectangleUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/SlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/SlidingWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/WindowDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/WindowDistance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slidingwindow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slidingwindow/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/WORKSPACE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/build_imagenet_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/build_imagenet_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/dataset_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/dataset_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/dataset_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/dataset_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/download_and_convert_cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/download_and_convert_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/download_and_convert_flowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/download_and_convert_flowers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/download_and_convert_imagenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/download_and_convert_imagenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/download_and_convert_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/download_and_convert_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/download_imagenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/download_imagenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/flowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/flowers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/imagenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/imagenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/imagenet_2012_validation_synset_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/imagenet_2012_validation_synset_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/imagenet_lsvrc_2015_synsets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/imagenet_lsvrc_2015_synsets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/imagenet_metadata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/imagenet_metadata.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/preprocess_imagenet_validation_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/preprocess_imagenet_validation_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/datasets/process_bounding_boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/datasets/process_bounding_boxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/deployment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/deployment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/deployment/model_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/deployment/model_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/deployment/model_deploy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/deployment/model_deploy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/download_and_convert_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/download_and_convert_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/eval_image_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/eval_image_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/export_inference_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/export_inference_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/export_inference_graph_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/export_inference_graph_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/alexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/alexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/alexnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/alexnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/cifarnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/cifarnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/cyclegan.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/cyclegan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/cyclegan_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/cyclegan_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/dcgan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/dcgan_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/dcgan_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_resnet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_resnet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_resnet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_resnet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v3_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/inception_v4_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/inception_v4_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/lenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/lenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/conv_blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/conv_blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/madds_top1_accuracy.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/madds_top1_accuracy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/mnet_v1_vs_v2_pixel1_latency.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/mnet_v1_vs_v2_pixel1_latency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/mobilenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/mobilenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/mobilenet_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/mobilenet_example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/mobilenet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/mobilenet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet/mobilenet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet/mobilenet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/mobilenet_v1_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/mobilenet_v1_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/nasnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/nasnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/nasnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/nasnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/nasnet_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/nasnet_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/nasnet_utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/nasnet_utils_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/pnasnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/pnasnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nasnet/pnasnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nasnet/pnasnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nets_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nets_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/nets_factory_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/nets_factory_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/overfeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/overfeat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/overfeat_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/overfeat_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/pix2pix.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/pix2pix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/pix2pix_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/pix2pix_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/resnet_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/resnet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/resnet_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/resnet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/resnet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/vgg.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/vgg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/nets/vgg_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/vgg_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/cifarnet_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/cifarnet_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/inception_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/inception_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/lenet_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/lenet_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/preprocessing_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/preprocessing_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/preprocessing/vgg_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/preprocessing/vgg_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/export_mobilenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/export_mobilenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/finetune_inception_v1_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/finetune_inception_v1_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/finetune_inception_v3_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/finetune_inception_v3_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/train_cifarnet_on_cifar10.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/train_cifarnet_on_cifar10.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/scripts/train_lenet_on_mnist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/scripts/train_lenet_on_mnist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/slim_walkthrough.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/slim_walkthrough.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/slim/train_image_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/train_image_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/tensblur/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/tensblur/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/tensblur/smoother.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/tensblur/smoother.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/tf_pose/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training2_adaboost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training2_adaboost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training2_gradient.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training2_gradient.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training3_adaboost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training3_adaboost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training3_gradient.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training3_gradient.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training4_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training4_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training4_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training4_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training5_adaBoost.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training5_adaBoost.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/training5_gradient_boosted_trees.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/training5_gradient_boosted_trees.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/video_image_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/video_image_recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/camera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_eye.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalcatface_extended.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_alt2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_alt_tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_frontalface_default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_fullbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_lefteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_lowerbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_righteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_russian_plate_number.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_smile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/data/haarcascade_upperbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/third-party/Nose18x15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/third-party/frontalEyes35x16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/cascades/third-party/frontalEyes35x16XML.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/pickles/face-labels.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/recognizers/face-trainner.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" afterDir="false" />
     </list>
@@ -15,11 +283,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+            <state relative-caret-position="458">
+              <caret line="93" column="15" lean-forward="true" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -28,37 +296,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="390">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/style.css">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_sapient/templates/video_upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+            <state relative-caret-position="1335">
+              <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,15 +325,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>face</find>
-      <find>main</find>
       <find>main.i</find>
       <find>main.im</find>
+      <find>main</find>
+      <find>run</find>
+      <find>args</find>
+      <find>pkl</find>
+      <find>font</find>
+      <find>stroke</find>
+      <find>recognizer</find>
+      <find>txt</find>
+      <find>vision</find>
+      <find>f</find>
+      <find>BASE_DIR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,29 +357,45 @@
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/camera.py" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/login.html" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/login.css" />
-        <option value="$PROJECT_DIR$/flask_sapient/views.py" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/video_upload.css" />
-        <option value="$PROJECT_DIR$/flask_sapient/templates/video_upload.html" />
-        <option value="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/style.css" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/face_item.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf-pose-estimation/video.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/posture.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/__init__.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/runner.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/estimator.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/networks.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet_thin.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_base.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_cmu.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_dsconv.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_personlab.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_augment.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_datamaster.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataworker.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/train.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v2.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/camera.py" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/__init__.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/templates/video_upload.html" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/object_detection_request.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/OpenCV_Web.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1106" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="width" value="1514" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,32 +420,7 @@
               <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
               <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,6 +429,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -177,6 +437,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask_sapient/WebApp/Posture" />
+      <recent name="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +464,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -222,22 +488,22 @@
       <workItem from="1555597099262" duration="3611000" />
       <workItem from="1555602048210" duration="898000" />
       <workItem from="1555603070624" duration="579000" />
-      <workItem from="1555678097620" duration="349000" />
+      <workItem from="1555678097620" duration="21696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16292000" />
+    <option name="totallyTimeSpent" value="37639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="47" y="0" width="1514" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19429348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -247,7 +513,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32920793" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32920793" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -269,9 +535,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/template.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/img/menu_backgroundlight.gif">
       <provider selected="true" editor-type-id="images" />
@@ -302,17 +565,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/login.css" />
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/image_upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -327,30 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/video_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -358,10 +586,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/face_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4969">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet_thin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/networks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_mobilenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pystopwatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_datamaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_augment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_personlab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_dsconv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_cmu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/network_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="e#2073#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/helpers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/posture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/output">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/image_webcam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/video_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="27" column="173" selection-start-line="27" selection-start-column="173" selection-end-line="27" selection-end-column="173" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/object_detection_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-859">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test100.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="93" column="15" lean-forward="true" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

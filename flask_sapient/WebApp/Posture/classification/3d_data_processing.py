@@ -9,8 +9,8 @@ cols = ['position', 'noseX', 'noseY', 'neckX', 'neckY', 'neckZ', 'noseZ', 'neckX
         'lhipX', 'lhipY', 'lhipZ', 'lkneeX', 'lkneeY', 'lkneeZ', 'lankleX', 'lankleY', 'lankleZ', 'leyeX', 'leyeY',
         'leyeZ']
 
-#csv_dir = os.path.normpath(os.getcwd() + os.sep + os.pardir) + "/featureExtraction/tf-pose-estimation/validation.csv"
-csv_dir = '/var/www/PostureRecognition/featureExtraction/tf-pose-estimation/data.csv'
+#csv_dir = os.path.normpath(os.getcwd() + os.sep + os.pardir) + "/featureExtraction/tf_pose_estimation/validation.csv"
+csv_dir = '/var/www/PostureRecognition/featureExtraction/tf_pose_estimation/data.csv'
 
 
 def encode_var(dataset, variable):

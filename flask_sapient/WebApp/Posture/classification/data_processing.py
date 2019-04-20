@@ -6,7 +6,7 @@ cols = ['position', 'noseX', 'noseY', 'neckX', 'neckY', 'rshoulderX', 'rshoulder
            'rhipX', 'rhipY', 'rkneeX', 'rkneeY', 'rankleX', 'rankleY', 'lhipX', 'lhipY', 'lkneeX', 'lkneeY', 'lankleX',
            'lankleY', 'reyeX', 'reyeY']
 
-csv_dir = os.path.normpath(os.getcwd() + os.sep + os.pardir) + "/Posture/featureExtraction/tf-pose-estimation/training4.csv"
+csv_dir = os.path.normpath(os.getcwd() + os.sep + os.pardir) + "/Posture/featureExtraction/tf_pose_estimation/training4.csv"
 
 def encode_var(dataset, variable):
     series = pd.Series(dataset[variable])
