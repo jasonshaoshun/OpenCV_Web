@@ -183,3 +183,11 @@
   opacity: 0.8;
   z-index: 3;
 }
+
+.logout{
+  z-index: 99;
+  position: absolute;
+  top: 2%;
+  left: 95%;
+  width: 5%;
+}

@@ -53,6 +53,7 @@
       <div class="curtain__prize">
         <img src="{{ url_for('static', filename='img/menu_backgroundlight.gif')}}" class="menu_background">
         <img id="homebtn" src="{{ url_for('static', filename='img/image_upload/home.png')}}" class="home_btn" onclick="animate_Backwards()">
+          <a href="{{ url_for('main.logout')}}" ><img src="{{ url_for('static',filename='img/logout.png')}}" class="logout"></a>
         <!-- Image Button -->
         <div onmouseover="growbutton('imagebtn','imagetext');" onmouseout="shrinkbutton('imagebtn','imagetext');" onclick="grow_image_frame('imagebtn_details','imagetext','imagebtn');">
           <img id="imagebtn" src="{{ url_for('static', filename='img/button_layout.png')}}" class="imagebtn">

@@ -9,6 +9,7 @@
 {% block body %}
   <img src="{{ url_for('static', filename='img/image_upload/image_upload_background.jpeg') }}" class="background_image">
   <a href="{{ url_for('main.index') }}"><img src="{{ url_for('static', filename='img/image_upload/home.png') }}" class="home_btn"></a>
+  <a href="{{ url_for('main.logout')}}"><img src="{{ url_for('static',filename='img/logout.png')}}" class="logout"></a>
 
   <img src="{{ url_for('static', filename='img/image_upload/help_btn.png') }}" class="help_btn" data-toggle="popover" data-content="1. Click choose file to select the file to be uploaded. <br/> 2.Click upload.<br/> 3.Click analyse." data-placement="left" data-trigger="hover" data-html="true">
 
