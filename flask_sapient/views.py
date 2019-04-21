@@ -84,8 +84,11 @@ def videoupload():
             if file and allowed_file(file.filename):
                 filename = secure_filename('input.mp4')
                 file.save(os.path.join(UPLOAD_FOLDER, filename))
-        elif request.form['button'] == 'face':
-            generate()
+        elif request.form['button'] == 'analyse':
+            text = open('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/Posture/output.txt', 'r+')
+            content = text.read().split('/n')
+            text.close()
+            return render_template('video_upload.html', text=content)
     return render_template('video_upload.html')
 
 # area for livefeed recognition

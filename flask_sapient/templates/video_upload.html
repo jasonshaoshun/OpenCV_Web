@@ -36,9 +36,10 @@
 {#    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="analysebutton" style="display: none;"></label>#}
 {#  </form>#}
   <form method="post" >
-    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="analysebutton" style="display: none;"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="button" value="analyse" style="display: none;"></label>
   </form>
 
+  <div class="output_text">{{ text }}</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>

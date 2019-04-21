@@ -3,4 +3,3 @@ System Time of the Machine Running: 2019-04-20 16:15:28.396153, People under CCT
 System Time of the Machine Running: 2019-04-20 16:15:36.673780, People under CCTV are ['laying'] respectively
 System Time of the Machine Running: 2019-04-20 16:15:44.917015, People under CCTV are ['laying' 'sitting'] respectively
 System Time of the Machine Running: 2019-04-20 16:15:54.161751, People under CCTV are ['standing' 'laying'] respectively
-
