@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="" />
+    <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +12,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1195">
               <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="97" column="127" lean-forward="true" selection-start-line="97" selection-start-column="127" selection-end-line="97" selection-end-column="127" />
+              <caret line="97" column="127" selection-start-line="97" selection-start-column="127" selection-end-line="97" selection-end-column="127" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -175,39 +189,6 @@
               <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
               <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="live_feed_extendent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="Face_Item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_sapient" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="Posture" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,11 +265,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65322000" />
+    <option name="totallyTimeSpent" value="65571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="9" width="1514" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19429348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -560,16 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -600,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="97" column="127" lean-forward="true" selection-start-line="97" selection-start-column="127" selection-end-line="97" selection-end-column="127" />
+          <caret line="97" column="127" selection-start-line="97" selection-start-column="127" selection-end-line="97" selection-end-column="127" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -613,6 +583,16 @@
           <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
