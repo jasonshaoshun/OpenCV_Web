@@ -115,6 +115,7 @@ class VideoCamera(object):
                 # put the outlines of the objects onto the frame
                 cv2.polylines(frame, [a], True, (0, 255, 255))
 
+            # smiling detection
             # subitems = smile_cascade.detectMultiScale(roi_gray)
             # for (ex,ey,ew,eh) in subitems:
             # 	cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
