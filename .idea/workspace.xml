@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c46b81c-9c22-46df-872b-e6c14f8a6404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/100.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/50.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/60.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/70.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test0.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test10.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test100.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test20.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test30.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test40.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test50.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test60.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test70.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/pickles/face-labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/pickles/face-labels.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/recognizers/face-trainner.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/recognizers/face-trainner.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/css/live_feed.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/css/live_feed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/css/video_upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/css/video_upload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/video/input.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/video/input.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/static/video/output.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/static/video/output.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/live_feed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/templates/video_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/templates/video_upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_sapient/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sapient/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/camera.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="493">
+              <caret line="121" column="90" selection-start-line="121" selection-start-column="90" selection-end-line="121" selection-end-column="90" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -57,12 +38,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py">
+        <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="244">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="99" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +84,9 @@
       <find>video_upload</find>
       <find>canvas_area</find>
       <find>opencv</find>
+      <find>image</find>
       <find>xml</find>
+      <find>open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +118,8 @@
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/train.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/slim/nets/resnet_v2.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/camera.py" />
-        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py" />
         <option value="$PROJECT_DIR$/flask_sapient/__init__.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/object_detection_request.py" />
-        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/homepage/index.html" />
         <option value="$PROJECT_DIR$/flask_sapient/static/css/menu.css" />
@@ -152,16 +133,19 @@
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/testing/unittest.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/imagestore.py" />
         <option value="$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/analyse.html" />
-        <option value="$PROJECT_DIR$/flask_sapient/views.py" />
-        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces_train.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/views.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py" />
         <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py" />
+        <option value="$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-78" />
+    <option name="x" value="74" />
     <option name="y" value="9" />
     <option name="width" value="1514" />
     <option name="height" value="900" />
@@ -222,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,14 +271,17 @@
       <workItem from="1555603070624" duration="579000" />
       <workItem from="1555678097620" duration="23857000" />
       <workItem from="1555859572480" duration="565000" />
+      <workItem from="1555947803754" duration="41000" />
+      <workItem from="1555947866034" duration="5000" />
+      <workItem from="1555947879840" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60841000" />
+    <option name="totallyTimeSpent" value="64688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-78" y="9" width="1514" height="900" extended-state="0" />
+    <frame x="74" y="9" width="1514" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19429348" />
@@ -327,9 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4969">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,9 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,13 +347,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pystopwatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataworker.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -381,13 +357,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/tf_pose/pose_datamaster.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -414,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,22 +405,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <element signature="e#2073#2111#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/featureExtraction/tf_pose_estimation/helpers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/template.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/output" />
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/image_webcam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -468,9 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/analysis/test100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/homepage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
@@ -478,25 +430,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="120" selection-start-line="4" selection-start-column="120" selection-end-line="4" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/output.txt" />
     <entry file="file://$PROJECT_DIR$/flask_sapient/static/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="186" selection-start-line="186" selection-end-line="192" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/output">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/analyse.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,19 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/video_analyse.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,32 +505,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces_train.py" />
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/face_item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -618,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/analyse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -632,23 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,36 +541,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="166" column="47" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
+    <entry file="file://$PROJECT_DIR$/flask_sapient/templates/live_feed_extendent/analyse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/faces-train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Posture/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="493">
+          <caret line="121" column="90" selection-start-line="121" selection-start-column="90" selection-end-line="121" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_sapient/WebApp/Face_Item/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

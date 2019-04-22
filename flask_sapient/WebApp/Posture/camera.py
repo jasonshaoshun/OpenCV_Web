@@ -37,15 +37,17 @@ class VideoCamera(object):
         width = int(self.video.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
         height = int(self.video.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
 
+        # analyse the live stream and store it in the static folder only works for the Chrome
         # fourcc = cv2.VideoWriter_fourcc(*'H264')
         fourcc = cv2.VideoWriter_fourcc(*'avc1')
         # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/camera.mp4', fourcc, 15.0, (width, height))
+        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/camera.mp4', fourcc, 15.0, (width, height))
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
         # self.video = cv2.VideoCapture('video.mp4')
 
     def __del__(self):
+        # close and save the text and video writing on, close the video capturing
         self.f.close()
         self.video.release()
         self.out.release()

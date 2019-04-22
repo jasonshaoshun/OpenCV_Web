@@ -13,17 +13,16 @@ from .WebApp.Face_Item.video import gen as generate
 from .WebApp.Face_Item.camera import VideoCamera as FaceItemCamera
 from flask_sapient.WebApp.Posture.camera import VideoCamera as PostureCamera
 from flask_sapient.WebApp.Face_Item.video import gen as face_item_video_reading
-# from flask_sapient.WebApp.Posture.video import gen as posture_video_reading
+from flask_sapient.WebApp.Posture.video import gen as posture_video_reading
 
 
 main = Blueprint('main', __name__)
-
+# the place to store the uploading video and the extensions of the video for security reason
 UPLOAD_FOLDER = '/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video'
 ALLOWED_EXTENSIONS = set(['mp4'])
 
-# main.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-
+# check if the file with allowed extension
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -58,19 +57,14 @@ def login():
     return render_template('login.html', form=form)
 
 
+# logout
 @main.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('main.login'))
 
 
-@main.route('/imagewebcam')
-@login_required
-def imagewebcam():
-    # comments = Comment.query.all()
-    return render_template('image_webcam.html')
-
-
+# page for video upload
 @main.route('/videoupload', methods=['GET', 'POST'])
 @login_required
 def videoupload():
@@ -89,12 +83,18 @@ def videoupload():
             if file and allowed_file(file.filename):
                 filename = secure_filename('input.mp4')
                 file.save(os.path.join(UPLOAD_FOLDER, filename))
+
+        # front-end request for face&item recognition for the uploaded video
         elif request.form['button'] == 'face_item':
             face_item_video_reading()
             return redirect(request.url)
-        # elif request.form['button'] == 'posture':
-        #     posture_video_reading()
-        #     return redirect(request.url)
+
+        # front-end request for posture recognition for the uploaded video
+        elif request.form['button'] == 'posture':
+            posture_video_reading()
+            return redirect(request.url)
+
+        # render the analysis text and video for watching
         elif request.form['button'] == 'analyse':
             text = open('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/video_analyse.txt', 'r+')
             content = text.read().split('\n')
@@ -103,7 +103,7 @@ def videoupload():
     return render_template('video_upload.html')
 
 
-# area for livefeed recognition
+# the following functions are for livefeed recognition page
 @main.route('/livefeed')
 @login_required
 def livefeed():
@@ -111,13 +111,14 @@ def livefeed():
     return render_template('live_feed.html')
 
 
+# transfer the OpenCV frame to jpeg for front-end rendering
 def gen(camera):
     while True:
         frame = camera.get_frame()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
-
+# render the page for face&item recognition live stream
 @main.route('/livefeed_extendent_faceItem_Page')
 @login_required
 def livefeed_extendent_faceItem_Page():
@@ -125,6 +126,7 @@ def livefeed_extendent_faceItem_Page():
     return render_template('live_feed_extendent/face_item.html')
 
 
+# generating the sequence of jpegs for fron-end rendering as a video
 @main.route('/live_feed_extendent_faceItem_Recogniser')
 @login_required
 def live_feed_extendent_faceItem_Recogniser():
@@ -132,6 +134,7 @@ def live_feed_extendent_faceItem_Recogniser():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
+# render the page for posture recognition live stream
 @main.route('/livefeed_extendent_posture_Page')
 @login_required
 def livefeed_extendent_posture_Page():
@@ -139,13 +142,14 @@ def livefeed_extendent_posture_Page():
     return render_template('live_feed_extendent/posture.html')
 
 
+# generating the sequence of jpegs for fron-end rendering as a video
 @main.route('/live_feed_extendent_posture_Recogniser')
 @login_required
 def live_feed_extendent_posture_Recogniser():
     return Response(gen(PostureCamera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-
+# render the analysis text and video for watching
 @main.route('/livefeed_extendent_analyse')
 @login_required
 def livefeed_extendent_analyse():
@@ -154,3 +158,10 @@ def livefeed_extendent_analyse():
     text.close()
     return render_template('live_feed_extendent/analyse.html', text=content)
 
+
+# it has been disabled for diffentiation
+@main.route('/imagewebcam')
+@login_required
+def imagewebcam():
+    # comments = Comment.query.all()
+    return render_template('image_webcam.html')

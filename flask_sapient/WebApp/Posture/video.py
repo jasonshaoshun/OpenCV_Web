@@ -1,8 +1,3 @@
-import time
-import os
-import numpy as np
-import cv2
-import pickle
 import argparse
 import logging
 import time
@@ -26,28 +21,15 @@ logger.addHandler(ch)
 fps_time = 0
 
 
-class VideoCamera(object):
-    def __init__(self):
-        # Using OpenCV to capture from device 0. If you have trouble capturing
-        # from a webcam, comment the line below out and use a video file
-        # instead.
-        self.video = cv2.VideoCapture('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/input.mp4')
-        width = int(self.video.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
-        height = int(self.video.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
-
-        # fourcc = cv2.VideoWriter_fourcc(*'H264')
+def gen():
+    # analyse the live stream and store it in the static folder only works for the Chrome
+    # fourcc = cv2.VideoWriter_fourcc(*'H264')
+        video = cv2.VideoCapture('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/input.mp4')
+        width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
+        height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
         fourcc = cv2.VideoWriter_fourcc(*'avc1')
-        # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/output.mp4', fourcc, 20.0, (width, height))
-        # If you decide to use video.mp4, you must have this file in the folder
-        # as the main.py.
-        # self.video = cv2.VideoCapture('video.mp4')
+        out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/output.mp4', fourcc, 20.0, (width, height))
 
-    def __del__(self):
-        self.video.release()
-        self.out.release()
-
-    def get_frame(self):
         parser = argparse.ArgumentParser(description='tf_pose_estimation realtime webcam')
         parser.add_argument('--camera', type=int, default=0)
 
@@ -69,7 +51,7 @@ class VideoCamera(object):
             e = TfPoseEstimator(get_graph_path(args.model), target_size=(432, 368))
         logger.debug('cam read+')
 
-        ret_val, image = self.video.read()
+        ret_val, image = video.read()
         logger.info('cam image=%dx%d' % (image.shape[1], image.shape[0]))
 
         array_humans = []
@@ -82,54 +64,56 @@ class VideoCamera(object):
 
         f = open("/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/Posture/output.txt", "w")
         f.write('Video start at {}\n'.format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-        logger.debug('image process+')
-        try:
-            humans = e.inference(image, resize_to_default=(w > 0 and h > 0), upsample_size=args.resize_out_ratio)
-        except Exception:
-            sys.exit("video finished!")
 
-        # Go over all the humans in the photo
-        for human in humans:
-            array_human = []
-            # For every single limb that each human has
-            for i in range(0, 16):
-                try:
-                    # record the limb coordinates
-                    array_human.append(human.body_parts[i].x)
-                    array_human.append(human.body_parts[i].y)
-                # If there are no coordinates for a certain limb record null
-                except KeyError:
-                    array_human.append(0.0)
-                    array_human.append(0.0)
-            # Improve the generated feature extraction by removing unclear data points
-            if helpers.clean_data(array_human) is None:
+        while (video.isOpened()):
+            logger.debug('image process+')
+            try:
+                humans = e.inference(image, resize_to_default=(w > 0 and h > 0), upsample_size=args.resize_out_ratio)
+            except Exception:
+                sys.exit("video finished!")
+
+            # Go over all the humans in the photo
+            for human in humans:
                 array_human = []
-            else:
-                array_humans.append(array_human)
-                array_human = []
+                # For every single limb that each human has
+                for i in range(0, 16):
+                    try:
+                        # record the limb coordinates
+                        array_human.append(human.body_parts[i].x)
+                        array_human.append(human.body_parts[i].y)
+                    # If there are no coordinates for a certain limb record null
+                    except KeyError:
+                        array_human.append(0.0)
+                        array_human.append(0.0)
+                # Improve the generated feature extraction by removing unclear data points
+                if helpers.clean_data(array_human) is None:
+                    array_human = []
+                else:
+                    array_humans.append(array_human)
+                    array_human = []
 
-        # Print the current classification
-        if len(array_humans) > 0:
-            # print(clf.predict(array_humans))
+            # Print the current classification
+            if len(array_humans) > 0:
+                # print(clf.predict(array_humans))
 
-            f.write('System Time of the Machine Running: {}, People under CCTV are {} respectively\n'.format(
-                datetime.datetime.now(), clf.predict(array_humans)))
+                f.write('System Time of the Machine Running: {}, People under CCTV are {} respectively\n'.format(
+                    datetime.datetime.now(), clf.predict(array_humans)))
 
-        del array_humans[:]
-        logger.debug('postprocess+')
-        image = TfPoseEstimator.draw_humans(image, humans, imgcopy=False)
+            del array_humans[:]
+            logger.debug('postprocess+')
+            image = TfPoseEstimator.draw_humans(image, humans, imgcopy=False)
 
-        logger.debug('show+')
-        cv2.putText(image,
-                    "FPS: %f" % (1.0 / (time.time() - fps_time)),
-                    (10, 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                    (0, 255, 0), 2)
+            logger.debug('show+')
+            cv2.putText(image,
+                        "FPS: %f" % (1.0 / (time.time() - fps_time)),
+                        (10, 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
+                        (0, 255, 0), 2)
 
-        logger.debug('finished+')
+            logger.debug('finished+')
+            out.write(image)
+
+    # close and save the text and video writing on, close the video capturing
         f.close()
-        self.out.write(image)
-        # We are using Motion JPEG, but OpenCV defaults to capture raw images,
-        # so we must encode it into JPEG in order to correctly display the
-        # video stream.
-        ret, jpeg = cv2.imencode('.jpg', image)
-        return jpeg.tobytes()
+        video.release()
+        out.release()
+
