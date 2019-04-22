@@ -31,7 +31,7 @@ class VideoCamera(object):
         # Using OpenCV to capture from device 0. If you have trouble capturing
         # from a webcam, comment the line below out and use a video file
         # instead.
-        self.f = open("/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/Posture/output.txt", "w")
+        self.f = open("/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/analyse.txt", "w")
         self.f.write('Video start at {}\n'.format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
         self.video = cv2.VideoCapture(0)
         width = int(self.video.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
@@ -40,7 +40,7 @@ class VideoCamera(object):
         # fourcc = cv2.VideoWriter_fourcc(*'H264')
         fourcc = cv2.VideoWriter_fourcc(*'avc1')
         # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/true.mp4', fourcc, 20.0, (width, height))
+        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/camera.mp4', fourcc, 15.0, (width, height))
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
         # self.video = cv2.VideoCapture('video.mp4')
@@ -84,6 +84,7 @@ class VideoCamera(object):
         # output.close()
 
         logger.debug('image process+')
+        # catch the end of the video processing
         try:
             humans = e.inference(image, resize_to_default=(w > 0 and h > 0), upsample_size=args.resize_out_ratio)
         except Exception:

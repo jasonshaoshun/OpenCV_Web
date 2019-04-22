@@ -1,0 +1,10 @@
+Video start at 2019-04-21 17:22:39
+The object detected is Man with confidence rate of 0.93
+The object detected is Mobile phone with confidence rate of 0.86
+The object detected is Man with confidence rate of 0.84
+The object detected is Person with confidence rate of 0.64
+The object detected is Man with confidence rate of 0.94
+The object detected is Clothing with confidence rate of 0.62
+The object detected is Man with confidence rate of 0.88
+The object detected is Bottle with confidence rate of 0.78
+The object detected is Drink with confidence rate of 0.54

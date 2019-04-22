@@ -29,8 +29,8 @@
   <form method="post" enctype="multipart/form-data">
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_choosefile.png') }}" class="choosefile_btn"> <input type="file" style="display: none;" name="file" id="file"></label>
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_upload.png') }}" class="upload_btn"><input type="submit" id="button" name="button" value="upload" style="display: none;"></label>
-    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/face_btn.png') }}" class="face_btn"><input type="submit" id="button" name="button" value="face" style="display: none;"></label>
-    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="posture_btn"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/face_btn.png') }}" class="face_btn"><input type="submit" id="button" name="button" value="face_item" style="display: none;"></label>
+    <label class="button_default"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="posture_btn"><input type="submit" id="button" name="button" value="posture" style="display: none;"></label>
   </form>
 
   <!-- USE THIS NAME TO TRIGGER ANALYSE BTN-->
@@ -41,7 +41,17 @@
     <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"><input type="submit" id="analysebutton" name="button" value="analyse" style="display: none;"></label>
   </form>
 
-  <div class="output_text">{{ text }}</div>
+  <video width="620" height="360" controls class="canvas_area">
+        <source src="{{ video_source }}" type="video/mp4">
+  </video>
+
+  <div class="output_text">
+        {% for para in text %}
+            {{ para }}<br>
+        {% endfor %}
+  </div>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>

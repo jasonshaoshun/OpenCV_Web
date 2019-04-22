@@ -1,4 +1,5 @@
 import time
+import datetime
 import os
 import numpy as np
 import cv2
@@ -18,17 +19,19 @@ class VideoCamera(object):
         # fourcc = cv2.VideoWriter_fourcc(*'H264')
         fourcc = cv2.VideoWriter_fourcc(*'avc1')
         # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/static/video/true.mp4', fourcc, 20.0, (width, height))
+        self.out = cv2.VideoWriter('/Users/shunshao/Desktop/OpenCV_Web/camera.mp4', fourcc, 15.0, (width, height))
         self.image_id = 0
         self.font = cv2.FONT_HERSHEY_SIMPLEX
         self.stroke = 2
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
         self.image_dir = os.path.join(BASE_DIR, "/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/Face_Item/analysis")
-        # If you decide to use video.mp4, you must have this file in the folder
-        # as the main.py.
-        # self.video = cv2.VideoCapture('video.mp4')
+
+        # open the text to write recognition information
+        self.f = open("/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/analyse.txt", "w")
+        self.f.write('Video start at {}\n'.format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
 
     def __del__(self):
+        self.f.close()
         self.video.release()
         self.out.release()
 
@@ -66,7 +69,7 @@ class VideoCamera(object):
 
                 cv2.putText(frame, name, (x, y), self.font, 1, color, self.stroke, cv2.LINE_AA)
 
-        if self.image_id % 10 == 0:
+        if self.image_id % 5 == 0:
             cv2.imwrite(os.path.join(self.image_dir, "%d.png" % self.image_id), frame)
 
             color = (123, 222, 0)
@@ -81,9 +84,9 @@ class VideoCamera(object):
 
             # f.write('Number of objects found: {}\n\n\n'.format(len(objects)))
             for object_ in objects:
-
                 # f.write('{} (confidence: {})\n'.format(object_.name, object_.score))
                 # f.write('Normalized bounding polygon vertices:\n')
+                self.f.write('The object detected is {} with confidence rate of {}\n'.format(object_.name, round(object_.score, 2)))
                 pts = []
                 count = 0
                 for vertex in object_.bounding_poly.normalized_vertices:
@@ -98,6 +101,10 @@ class VideoCamera(object):
                 # print("a", a)
                 a = a.reshape((-1, 1, 2))
                 cv2.polylines(frame, [a], True, (0, 255, 255))
+
+            # subitems = smile_cascade.detectMultiScale(roi_gray)
+            # for (ex,ey,ew,eh) in subitems:
+            # 	cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
 
             cv2.imwrite(os.path.join(self.image_dir, "test%d.png" % self.image_id), frame)
             # print("sucess")

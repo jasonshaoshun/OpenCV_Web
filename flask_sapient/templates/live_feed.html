@@ -17,8 +17,14 @@
     <a href="{{ url_for('main.livefeed_extendent_faceItem_Page') }}"><img src="{{ url_for('static', filename='img/live_feed/face_btn.png') }}" class="choosefile_btn"></a>
     <a href="{{ url_for('main.livefeed_extendent_posture_Page') }}"><img src="{{ url_for('static', filename='img/live_feed/posture_btn.png') }}" class="upload_btn"></a>
     <a href="{{ url_for('main.livefeed') }}"><img src="{{ url_for('static', filename='img/live_feed/stop_btn.png') }}" class="upload_btn2"></a>
-    <label class="button_default"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"></label>
+    <a href="{{ url_for('main.livefeed_extendent_analyse') }}"><img src="{{ url_for('static', filename='img/image_upload/image_upload_analyse.png') }}" class="analyse_btn"></a>
   </form>
+
+    <div class="output_text">
+        {% for para in text %}
+            {{ para }}<br>
+        {% endfor %}
+    </div>
 
 {% block video %}
 

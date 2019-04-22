@@ -97,7 +97,23 @@ form{
 	width: 26vw;
 	overflow-y: scroll!important;
 }
-/*Uploaded video custom styling*/
-#uploaded_video{
 
+.logout{
+  z-index: 99;
+  position: absolute;
+  top: 3%;
+  left: 92.5%;
+  width: 2.5%;
+}
+
+.canvas_area {
+    position: absolute;
+    top: 17%;
+    left: 6%;
+    width: 40%;
+    height: 67vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    z-index: 10;
 }
