@@ -153,7 +153,8 @@ def live_feed_extendent_posture_Recogniser():
 @main.route('/livefeed_extendent_analyse')
 @login_required
 def livefeed_extendent_analyse():
-    text = open('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/live_analyse.txt', 'r+')
+    # text = open('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/live_analyse.txt', 'r+')
+    text = open('/Users/shunshao/Desktop/OpenCV_Web/flask_sapient/WebApp/analyse.txt', 'r+')
     content = text.read().split('\n')
     text.close()
     return render_template('live_feed_extendent/analyse.html', text=content)

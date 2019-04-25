@@ -77,7 +77,7 @@ class VideoCamera(object):
                 cv2.putText(frame, name, (x, y), self.font, 1, color, self.stroke, cv2.LINE_AA)
 
         # process the image recognition every five frames
-        if self.image_id % 5 == 0:
+        if self.image_id % 15 == 0:
             cv2.imwrite(os.path.join(self.image_dir, "%d.png" % self.image_id), frame)
 
             color = (123, 222, 0)

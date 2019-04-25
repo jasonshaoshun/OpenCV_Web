@@ -1,9 +1,1 @@
-Video start at 2019-04-22 18:55:49
-The object detected is Man with confidence rate of 0.89
-The object detected is Glasses with confidence rate of 0.59
-The object detected is Man with confidence rate of 0.83
-The object detected is Drink with confidence rate of 0.71
-The object detected is Person with confidence rate of 0.57
-The object detected is Man with confidence rate of 0.89
-The object detected is Drink with confidence rate of 0.55
-The object detected is Hat with confidence rate of 0.52
+Video start at 2019-04-23 13:41:43
